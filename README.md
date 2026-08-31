@@ -29,6 +29,13 @@ Ask Claude to review your recent changes — the agent will automatically use th
 - Claude Code
 - Git repository
 
+## Installation
+
+To install this plugin locally, clone the repository and load it with:
+```bash
+claude --plugin-dir .
+```
+
 ## Version
 
 v0.1.0
