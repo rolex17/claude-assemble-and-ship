@@ -1,34 +1,34 @@
 # Dev Toolkit Plugin
 
-Een handige Claude Code plugin voor ontwikkelaars die hun code sneller willen reviewen en wijzigingen willen documenteren.
+A handy Claude Code plugin for developers who want to review their code faster and document changes.
 
-## Wat doet deze plugin?
+## What does this plugin do?
 
-De Dev Toolkit plugin voegt twee powerful tools aan Claude Code toe:
+The Dev Toolkit plugin adds two powerful tools to Claude Code:
 
 ### Commands (Slash Commands)
 
-- **`/dev-toolkit:summarize-changes`** — Vat alle wijzigingen op de huidige branch samen met een regel per bestand. Perfect voor het snel opvullen van pull-request beschrijvingen.
+- **`/dev-toolkit:summarize-changes`** — Summarizes all changes on the current branch with one line per file. Perfect for quickly filling in pull-request descriptions.
 
 ### Agents (Subagents)
 
-- **`code-reviewer`** — Een gespecialiseerde agent die je recente code wijzigingen analyseert op bugs, ontbrekende foutafhandeling en onduidelijke naamgeving. Handig direct na het schrijven of wijzigen van code.
+- **`code-reviewer`** — A specialized agent that analyzes your recent code changes for bugs, missing error handling, and unclear naming. Useful right after writing or modifying code.
 
-## Hoe te gebruiken
+## How to use
 
-### De samenvatting-command gebruiken
+### Using the summarize-changes command
 
-Voer `/dev-toolkit:summarize-changes` uit in Claude Code om een snelle samenvatting van wijzigingen op je huidige branch te krijgen.
+Run `/dev-toolkit:summarize-changes` in Claude Code to get a quick summary of changes on your current branch.
 
-### De code-reviewer agent gebruiken
+### Using the code-reviewer agent
 
-Vraag Claude om je recente wijzigingen te beoordelen — de agent zal automatisch de code-reviewer agent gebruiken en je feedback geven gegroepeerd op ernst (hoog, medium, laag).
+Ask Claude to review your recent changes — the agent will automatically use the code-reviewer agent and give you feedback grouped by severity (high, medium, low).
 
-## Vereisten
+## Requirements
 
 - Claude Code
 - Git repository
 
-## Versie
+## Version
 
 v0.1.0
